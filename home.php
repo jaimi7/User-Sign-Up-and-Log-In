@@ -26,7 +26,7 @@
                 <p><?php echo $_SESSION['uname']; ?></p>
                 <p>Website & Application <br> Developer</p>
             </div>
-            <img src="img/img.jpg" alt="Patel Jaimi" class="img">
+            <img src="img/img.jpg" alt="<?php echo $_SESSION['uname']; ?>" class="img">
         </div>
     </div>
 </body>
